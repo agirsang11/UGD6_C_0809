@@ -110,6 +110,11 @@ class="nav-link">
                                     <i class="nav-icon far fa-circle"></i>
                                     <p> Departemen</p>
                                 </a>
+                                <a href="{{ url('pegawai') }}"
+class="nav-link">
+                                    <i class="nav-icon far fa-circle"></i>
+                                    <p> Pegawai</p>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -143,5 +148,3 @@ href="#">AdminLTE.io</a>. </strong> All rights reserved.
         <script src="{{ asset('js/adminlte.min.js') }}"></script>
     </body>
 </html>
-
-

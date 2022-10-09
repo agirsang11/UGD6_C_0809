@@ -16,7 +16,7 @@ class DepartemenController extends Controller
      */
     public function index()
     {
-        //get posts
+        //get departemen
         $departemen = Departemen::latest()->paginate(5);
 
         //render view with posts
